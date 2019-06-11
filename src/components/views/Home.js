@@ -4,7 +4,10 @@ const Home = () => {
     return(
         <div>
             <br/>
-            <h5></h5>
+            <h5>Git URL</h5>
+            <ul>
+                <li>https://github.com/slamdunc123/users</li>
+            </ul>
 
             <h5>Features:</h5>
             <ul>
