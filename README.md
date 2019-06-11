@@ -1,2 +1,2 @@
 # react-redux-api-starter-template
-React Redux API Starter Template
+Uses - React Redux API Starter Template
