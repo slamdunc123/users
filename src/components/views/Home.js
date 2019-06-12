@@ -6,12 +6,14 @@ const Home = () => {
             <br/>
             <h5>Git URL</h5>
             <ul>
-                <li>https://github.com/slamdunc123/users</li>
+                <li>
+                    <a href="https://github.com/slamdunc123/users" target="_blank" rel="noopener noreferrer">https://github.com/slamdunc123/users</a>
+                </li>
             </ul>
 
             <h5>Features:</h5>
             <ul>
-                <li>Shows all users</li>
+                <li>Show all users</li>
                 <li>Show single user info</li>
                 <li>Add user</li>
                 <li>Edit user</li>
