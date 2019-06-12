@@ -39,11 +39,10 @@ class Navigation extends Component {
     }
 
     render() {
-        const url = "/";
         return (
             <div>
                 <Navbar className="navbar navbar-expand-lg navbar-dark bg-dark" expand="md">
-                    <NavbarBrand href={url}>Users</NavbarBrand>
+                    <NavbarBrand href="/">Users</NavbarBrand>
                     <NavbarToggler onClick={this.toggleBurgerMenu} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
