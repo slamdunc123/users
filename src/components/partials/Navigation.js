@@ -39,7 +39,7 @@ class Navigation extends Component {
     }
 
     render() {
-        const url = "http://slamdunc.co.uk/react-sites/users";
+        const url = "/";
         return (
             <div>
                 <Navbar className="navbar navbar-expand-lg navbar-dark bg-dark" expand="md">
