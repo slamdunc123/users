@@ -10,15 +10,13 @@ import Main from './components/layout/Main';
 class App extends Component {
   render() {
     return (
-      
-        <Router basename={'/react-sites/users'}>
-          <div className="App">
-            <Header />
-            <Main />
-            <Footer />
-          </div>
-        </Router>
-      
+      <Router basename={'/react-sites/users'}>
+        <div className='App'>
+          <Header />
+          <Main />
+          <Footer />
+        </div>
+      </Router>
     );
   }
 }
